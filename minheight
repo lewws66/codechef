@@ -1,0 +1,19 @@
+// Problem at https://www.codechef.com/problems/MINHEIGHT 
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int ht_son,ht_min;
+	int numset;
+	cin >> numset;
+	while (numset--){
+        cin>> ht_son>>ht_min;
+        if(ht_son>=ht_min) {
+	        cout<<"YES"<<endl;
+	    } else {
+	        cout<<"NO"<<endl; 
+	    }
+	}
+	return 0;
+}
