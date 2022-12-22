@@ -1,4 +1,5 @@
 // Problem at https://www.codechef.com/problems/MINHEIGHT 
+//
 #include <iostream>
 using namespace std;
 
